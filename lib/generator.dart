@@ -120,17 +120,17 @@ class Options {
 
   Options(
       {this.style = AvatarStyle.circle,
-      this.top = Top.shorthairfrizzle,
-      this.accessories = Accessories.kurta,
+      this.top = Top.shorthairshortflat,
+      this.accessories = Accessories.blank,
       this.hairColor = HairColor.brownDark,
-      this.facialHair = FacialHair.moustachemagnum,
-      this.clothes = Cloth.blazerShirt,
-      this.clothColor = ClothColor.gray1,
-      this.eyes = Eyes.wink,
-      this.eyebrow = Eyebrow.angry,
-      this.mouth = Mouth.serious,
+      this.facialHair = FacialHair.blank,
+      this.clothes = Cloth.shirtVNeck,
+      this.clothColor = ClothColor.blue3,
+      this.eyes = Eyes.none,
+      this.eyebrow = Eyebrow.none,
+      this.mouth = Mouth.none,
       this.skin = Skin.light,
-      this.hatColor = HatColor.black,
-      this.facialHairColor = FacialHairColor.black,
-      this.graphic = Graphic.skull});
+      this.hatColor = HatColor.white,
+      this.facialHairColor = FacialHairColor.brownDark,
+      this.graphic = Graphic.deer});
 }
